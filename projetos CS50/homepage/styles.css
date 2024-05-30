@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: #0D0D14;
+    scroll-behavior: smooth;
+}
+
+.head {
+    padding-top: 3rem;
+    text-align: center;
+    height: 100vh;
+}
+
+h1{
+    user-select: none;
+    color: aliceblue;
+    font-family: Consolas, 'Courier New', monospace;
+    font-size: 9vw;
+    display: inline-block;
+}
+
+.yellow{
+    color: #FFE43F;
+}
+
+.red{
+    color: #F55343;
+}
+
+hr{
+    opacity: 80%;
+    margin: 0 10% 0 10%;
+    background-color: aliceblue;
+    width: 80%;
+    height: 0.5rem;
+}
+
+#arrow{
+    opacity: 80%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    max-width: 100%;
+    position: absolute;
+}
+
+.homebtn{
+    font-family: Bebas Neue, consolas, monospace;
+    width: 450px;
+    text-shadow: 0 0.3vw rgb(1, 96, 116);
+    font-size: 5vw;
+    text-decoration: none;
+    user-select: none;
+    color: aliceblue;
+    border: none;
+    margin: 0 1vw 0 1vw;
+    background-color: #1E1E2E;
+    border-radius: 0.5rem;
+    margin-bottom: 55vh;
+    transition: cursor, transform 100ms, color 100ms, background-color 100ms, text-shadow ease-in-out;
+}
+
+.homebtn:hover,.homebtn:focus{
+    cursor: auto;
+}
+
+.ready:hover, .ready:focus{
+    background-color: aliceblue;
+    text-decoration-color: none;
+    color: #1E1E2E;
+    text-shadow: 0 0.3vw rgb(90,90,90);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+#homenav {
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100vh;
+}
